@@ -101,13 +101,7 @@ export default function CardProduct(ICardProduct: ICardProduct) {
                     </h2>
                   </div>
                   <div className="flex items-center justify-between">
-                    <div className="w-[45%]">
-                      <Button className="w-full bg-sky-500 hover:bg-sky-600">
-                        Lazada
-                      </Button>
-                    </div>
-
-                    <div className="w-[45%]">
+                    <div className="w-[90%]">
                       <Button className="w-full bg-orange-500 hover:bg-orange-600">
                         Shopee
                       </Button>
@@ -123,13 +117,7 @@ export default function CardProduct(ICardProduct: ICardProduct) {
                 <FaCartShopping className="text-emerald-500" />
               </div>
               <div className="flex items-center justify-between gap-5">
-                <div className="w-1/2">
-                  <Button className="w-full bg-green-500 hover:bg-green-600 lg:h-16 lg:text-lg">
-                    Tokopedia
-                  </Button>
-                </div>
-
-                <div className="w-1/2">
+                <div className="w-full">
                   <Button className="w-full bg-orange-500 hover:bg-orange-600 lg:h-16 lg:text-lg">
                     Shopee
                   </Button>
