@@ -103,7 +103,7 @@ export default function Products() {
           <div className="flex h-full w-full flex-col items-center justify-center gap-3">
             <Image
               alt="not-found"
-              src="/illustrations/404.png"
+              src="/illustrations/404.webp"
               width={500}
               height={500}
               className="h-32 w-32 object-cover"
