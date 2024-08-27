@@ -21,6 +21,6 @@ export const products = [
     price: 20000,
     images: ["/products/keripik-daun-ubi.webp"],
     description:
-      "Nama Produk : Keripik Daun Ubi\nHarga : Rp20.000\n\n \nKontak WA : 085317841677\n\nDeskripsi :\n\nNikmati camilan sehat dan lezat dengan Keripik Daun Ubi kami. Terbuat dari daun ubi segar yang dipilih dan diolah untuk menghasilkan tekstur yang krispi dan rasa yang gurih. Cocok untuk teman bersantai dan cemilan.\n\nKeunggulan:\n\n- Bahan alami tanpa pengawet\n- Rendah kandungan minyak karena diproses dengan spiner berkualitas \n- Rasa Gurih dan krispi",
+      "Nama Produk : Keripik Daun Ubi\nHarga : Rp20.000 \nKontak WA : 085317841677\n\nDeskripsi :\n\nNikmati camilan sehat dan lezat dengan Keripik Daun Ubi kami. Terbuat dari daun ubi segar yang dipilih dan diolah untuk menghasilkan tekstur yang krispi dan rasa yang gurih. Cocok untuk teman bersantai dan cemilan.\n\nKeunggulan:\n\n- Bahan alami tanpa pengawet\n- Rendah kandungan minyak karena diproses dengan spiner berkualitas \n- Rasa Gurih dan krispi",
   },
 ];
