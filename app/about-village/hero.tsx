@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import { Fade } from "react-slideshow-image";
-import "react-slideshow-image/dist/styles.css";
 
 export default function Hero() {
   return (
