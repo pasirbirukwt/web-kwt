@@ -17,6 +17,7 @@ import { Slide } from "react-slideshow-image";
 import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 
 export default function CardProduct(ICardProduct: ICardProduct) {
+  const [open, setOpen] = useState(false);
   const [images, setImage] = useState<string[]>([]);
   const [slideIndex, setSlideIndex] = useState(0);
 
@@ -25,8 +26,14 @@ export default function CardProduct(ICardProduct: ICardProduct) {
     setSlideIndex(0);
   }, [ICardProduct]);
 
+  useEffect(() => {
+    if (!open) {
+      setSlideIndex(0);
+    }
+  }, [open]);
+
   return (
-    <Drawer>
+    <Drawer open={open} onOpenChange={setOpen}>
       <DrawerTrigger className="w-[45%] sm:w-[30%] lg:w-[20%] xl:w-[15%]">
         <div className="flex h-[250px] w-full flex-col gap-3 rounded-lg border border-emerald-200 bg-emerald-400 bg-opacity-10 p-5 text-slate-700 duration-300 sm:h-[300px] xl:hover:cursor-pointer xl:hover:bg-emerald-500 xl:hover:text-white">
           <div className="h-3/5">
