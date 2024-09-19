@@ -3,7 +3,7 @@ import { LuFacebook, LuInstagram, LuMail } from "react-icons/lu";
 
 export default function Footer() {
   return (
-    <footer className="mt-24 bg-emerald-500 text-white">
+    <footer className="mt-24 bg-purple-500 text-white">
       <div className="container flex min-h-[250px] text-sm sm:text-base lg:text-lg">
         <div className="flex w-1/2 flex-col justify-between py-16">
           <h3>Pasir Biru, Kec. Rancakalong, Kab. Sumedang</h3>

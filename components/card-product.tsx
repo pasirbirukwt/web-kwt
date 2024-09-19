@@ -35,7 +35,7 @@ export default function CardProduct(ICardProduct: ICardProduct) {
   return (
     <Drawer open={open} onOpenChange={setOpen}>
       <DrawerTrigger className="w-[45%] sm:w-[30%] lg:w-[20%] xl:w-[15%]">
-        <div className="flex h-[250px] w-full flex-col gap-3 rounded-lg border border-emerald-200 bg-emerald-400 bg-opacity-10 p-5 text-slate-700 duration-300 sm:h-[300px] xl:hover:cursor-pointer xl:hover:bg-emerald-500 xl:hover:text-white">
+        <div className="flex h-[250px] w-full flex-col gap-3 rounded-lg border border-purple-200 bg-purple-400 bg-opacity-10 p-5 text-slate-700 duration-300 sm:h-[300px] xl:hover:cursor-pointer xl:hover:bg-purple-500 xl:hover:text-white">
           <div className="h-3/5">
             <Image
               src={ICardProduct.images[0]}
@@ -122,7 +122,7 @@ export default function CardProduct(ICardProduct: ICardProduct) {
                 <div className="hidden w-[20%] flex-col gap-5 xl:flex">
                   <div className="flex items-center gap-3">
                     <h1 className="font-bold">Beli Langsung</h1>
-                    <FaCartShopping className="text-emerald-500" />
+                    <FaCartShopping className="text-purple-500" />
                   </div>
                   <div className="flex flex-col gap-3">
                     <h1>
@@ -150,7 +150,7 @@ export default function CardProduct(ICardProduct: ICardProduct) {
             <div className="flex flex-col justify-center gap-2 min-[320px]:h-[15%] min-[390px]:h-[12%] xl:hidden">
               <div className="flex items-center gap-3 lg:text-lg">
                 <h1 className="font-bold">Beli Langsung</h1>
-                <FaCartShopping className="text-emerald-500" />
+                <FaCartShopping className="text-purple-500" />
               </div>
               <div className="flex items-center justify-between gap-5">
                 <div className="w-full">

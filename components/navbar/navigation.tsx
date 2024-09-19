@@ -40,7 +40,7 @@ export default function Navigation() {
       <div className="flex items-center gap-5 lg:hidden">
         <Popover open={open} onOpenChange={setOpen}>
           <PopoverTrigger>
-            <LuMenu className="text-xl text-emerald-500" />
+            <LuMenu className="text-xl text-purple-500" />
           </PopoverTrigger>
           <PopoverContent className="relative right-2 w-40 p-0">
             {nav.map((item) => (
@@ -49,7 +49,7 @@ export default function Navigation() {
                 onClick={() => setOpen(false)}
                 href={item.path}
                 target={item.name === "Kontak KWT" ? "_blank" : "_self"}
-                className="flex items-center gap-2 py-2 pl-4 text-emerald-500"
+                className="flex items-center gap-2 py-2 pl-4 text-purple-500"
               >
                 {item.icon}
                 {item.name}
@@ -66,7 +66,7 @@ export default function Navigation() {
             key={item.name}
             href={item.path}
             target={item.name === "Kontak KWT" ? "_blank" : "_self"}
-            className="flex items-center gap-2 rounded-full px-3 py-2 text-sm text-emerald-500 duration-300 hover:bg-emerald-100"
+            className="flex items-center gap-2 rounded-full px-3 py-2 text-sm text-purple-500 duration-300 hover:bg-purple-100"
           >
             {item.icon}
             {item.name}
