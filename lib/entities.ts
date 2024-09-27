@@ -1,6 +1,6 @@
 export interface ICardProduct {
   name: string;
-  price: string | number;
+  price: string[] | number[];
   images: string[];
   description?: string;
   link?: string;

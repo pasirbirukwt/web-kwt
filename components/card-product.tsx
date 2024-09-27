@@ -51,7 +51,7 @@ export default function CardProduct(ICardProduct: ICardProduct) {
               {ICardProduct.name}
             </h1>
             <p className="flex">
-              Rp{ICardProduct.price.toLocaleString("id-ID")}
+              Rp{ICardProduct.price[slideIndex].toLocaleString("id-ID")}
             </p>
           </div>
         </div>
@@ -108,7 +108,7 @@ export default function CardProduct(ICardProduct: ICardProduct) {
                   <div>
                     <h1 className="text-xl font-bold">{ICardProduct.name}</h1>
                     <h2 className="text-lg">
-                      Rp{ICardProduct.price.toLocaleString("id-ID")}
+                      Rp{ICardProduct.price[slideIndex].toLocaleString("id-ID")}
                     </h2>
                   </div>
 
@@ -132,7 +132,7 @@ export default function CardProduct(ICardProduct: ICardProduct) {
                     <h2>
                       Harga :{" "}
                       <span className="font-semibold">
-                        {ICardProduct.price}
+                        {ICardProduct.price[slideIndex].toLocaleString("id-ID")}
                       </span>
                     </h2>
                   </div>

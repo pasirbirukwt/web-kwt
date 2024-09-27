@@ -17,10 +17,10 @@ import CardProduct from "@/components/card-product";
 export default function Products() {
   const [products, setProducts] = useState(
     productsData.sort((a, b) => {
-      if (a.price === b.price) {
+      if (a.price[0] === b.price[0]) {
         return a.name.localeCompare(b.name);
       }
-      return a.price - b.price;
+      return a.price[0] - b.price[0];
     }),
   );
   const [searchTerm, setSearchTerm] = useState("");
@@ -49,14 +49,14 @@ export default function Products() {
         if (a.price === b.price) {
           return a.name.localeCompare(b.name);
         }
-        return a.price - b.price;
+        return a.price[0] - b.price[0];
       });
     } else if (sortOrder === "higher-price") {
       filteredProducts.sort((a, b) => {
         if (a.price === b.price) {
           return a.name.localeCompare(b.name);
         }
-        return b.price - a.price;
+        return b.price[0] - a.price[0];
       });
     }
 
