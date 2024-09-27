@@ -138,7 +138,15 @@ export default function CardProduct(ICardProduct: ICardProduct) {
                   </div>
                   <div className="flex items-center justify-between">
                     <div className="w-[90%]">
-                      <Button className="w-full bg-orange-500 hover:bg-orange-600">
+                      <Button
+                        onClick={() => {
+                          window.open(
+                            ICardProduct?.link ? ICardProduct?.link : "#",
+                            ICardProduct.link ? "_blank" : "_self",
+                          );
+                        }}
+                        className="w-full bg-orange-500 hover:bg-orange-600"
+                      >
                         Shopee
                       </Button>
                     </div>
@@ -154,7 +162,15 @@ export default function CardProduct(ICardProduct: ICardProduct) {
               </div>
               <div className="flex items-center justify-between gap-5">
                 <div className="w-full">
-                  <Button className="w-full bg-orange-500 hover:bg-orange-600 lg:h-16 lg:text-lg">
+                  <Button
+                    onClick={() => {
+                      window.open(
+                        ICardProduct?.link ? ICardProduct?.link : "#",
+                        ICardProduct.link ? "_blank" : "_self",
+                      );
+                    }}
+                    className="w-full bg-orange-500 hover:bg-orange-600 lg:h-16 lg:text-lg"
+                  >
                     Shopee
                   </Button>
                 </div>

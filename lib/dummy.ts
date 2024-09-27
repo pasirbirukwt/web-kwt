@@ -1,10 +1,11 @@
 export const products = [
   {
     name: "Kripik Ubi Ungu",
-    price: 20000,
+    price: 16000,
     images: ["/products/keripik-ubi-ungu.webp"],
     description:
-      "Nama Produk : Keripik Ubi Ungu\nHarga : Rp20.000 \nKontak WA : 085317841677\n\nDeskripsi :\n\nNikmati camilan sehat dan lezat dengan Keripik Ubi Ungu kami. Terbuat dari ubi ungu segar langsung dari desa yang dipilih dan diolah untuk menghasilkan tekstur yang krispi dan rasa yang gurih. Cocok sebagai teman cemilan.\n\nKeunggulan:\n\n- Bahan alami tanpa pengawet\n- Rendah kandungan minyak karena diproses dengan spiner berkualitas \n- Rasa Gurih dan krispi",
+      "Nama Produk : Keripik Ubi Ungu\nHarga : Rp16.000 \nKontak WA : 085317841677\n\nDeskripsi :\n\nNikmati camilan sehat dan lezat dengan Keripik Ubi Ungu kami. Terbuat dari ubi ungu segar langsung dari desa yang dipilih dan diolah untuk menghasilkan tekstur yang krispi dan rasa yang gurih. Cocok sebagai teman cemilan.\n\nKeunggulan:\n\n- Bahan alami tanpa pengawet\n- Rendah kandungan minyak karena diproses dengan spiner berkualitas \n- Rasa Gurih dan krispi",
+    link: "https://shopee.co.id/product/1342976681/28812554293/",
   },
   {
     name: "Brownies Ubi Ungu",
@@ -18,9 +19,10 @@ export const products = [
   },
   {
     name: "Kripik Daun Ubi",
-    price: 20000,
+    price: 13000,
     images: ["/products/keripik-daun-ubi.webp"],
     description:
-      "Nama Produk : Keripik Daun Ubi\nHarga : Rp20.000 \nKontak WA : 085317841677\n\nDeskripsi :\n\nNikmati camilan sehat dan lezat dengan Keripik Daun Ubi kami. Terbuat dari daun ubi segar yang dipilih dan diolah untuk menghasilkan tekstur yang krispi dan rasa yang gurih. Cocok untuk teman bersantai dan cemilan.\n\nKeunggulan:\n\n- Bahan alami tanpa pengawet\n- Rendah kandungan minyak karena diproses dengan spiner berkualitas \n- Rasa Gurih dan krispi",
+      "Nama Produk : Keripik Daun Ubi\nHarga : Rp13.000 \nKontak WA : 085317841677\n\nDeskripsi :\n\nNikmati camilan sehat dan lezat dengan Keripik Daun Ubi kami. Terbuat dari daun ubi segar yang dipilih dan diolah untuk menghasilkan tekstur yang krispi dan rasa yang gurih. Cocok untuk teman bersantai dan cemilan.\n\nKeunggulan:\n\n- Bahan alami tanpa pengawet\n- Rendah kandungan minyak karena diproses dengan spiner berkualitas \n- Rasa Gurih dan krispi",
+    link: "https://shopee.co.id/product/1342976681/29862560490/",
   },
 ];

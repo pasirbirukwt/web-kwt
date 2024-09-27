@@ -3,4 +3,5 @@ export interface ICardProduct {
   price: string | number;
   images: string[];
   description?: string;
+  link?: string;
 }
